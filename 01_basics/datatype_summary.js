@@ -38,3 +38,30 @@ console.log(typeof anotherId);
 
 //  Array , objects , Functions
 
+
+// ******************************
+
+// Primitive is ( Stack ) & Non Premiatives are (Heap)
+ 
+let myName="Devendra"
+
+let yourName =myName
+yourName="disha"
+
+console.log(myName);
+console.log(yourName);
+
+
+let user1={
+    email:"dven@g,ail.com",
+    age:22
+}
+
+let user2=user1
+user2.email="sonwane@gmail.com"
+
+
+console.log(user1.email);
+console.log(user2.email);
+
+
